@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ELibrary</string>
+    <string name="new_user_signup">New User? <b>SignUp</b></string>
+</resources>

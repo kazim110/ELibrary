@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/drawable-v24/shape_toolbar02.xml" value="0.1" />
+        <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1" />
+        <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/drawable/shape_button02.xml" value="0.1" />
+        <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/drawable/shape_edittext01.xml" value="0.1" />
+        <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/drawable/shape_toolbar01.xml" value="0.1" />
+        <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/layout/activity_dashboard_admin.xml" value="0.1" />
+        <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/layout/activity_dashboard_user.xml" value="0.1" />
+        <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/layout/activity_login.xml" value="0.18" />
+        <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/layout/activity_main.xml" value="0.14345991561181434" />
+        <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/layout/activity_splash.xml" value="0.12" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
