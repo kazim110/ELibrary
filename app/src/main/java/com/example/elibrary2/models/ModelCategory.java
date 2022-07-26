@@ -1,4 +1,4 @@
-package com.example.elibrary2;
+package com.example.elibrary2.models;
 
 public class ModelCategory {
     String id,category,uid;

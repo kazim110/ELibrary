@@ -1,6 +1,9 @@
-package com.example.elibrary2;
+package com.example.elibrary2.filters;
 
 import android.widget.Filter;
+
+import com.example.elibrary2.adapters.AdapterCategory;
+import com.example.elibrary2.models.ModelCategory;
 
 import java.util.ArrayList;
 
