@@ -29,6 +29,7 @@
     </RelativeLayout>
 
     <ScrollView
+        android:layout_above="@id/readBookBtn"
         android:layout_below="@id/toolbarRl"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -165,5 +166,14 @@
         </LinearLayout>
 
     </ScrollView>
+
+    <Button
+        android:id="@+id/readBookBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:drawableTop="@drawable/ic_book_white"
+        android:text="Read"
+        android:background="@color/design_default_color_primary"/>
 
 </RelativeLayout>

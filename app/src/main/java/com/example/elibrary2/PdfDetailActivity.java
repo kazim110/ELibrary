@@ -38,6 +38,14 @@ public class PdfDetailActivity extends AppCompatActivity {
                 onBackPressed();
             }
         });
+        binding.readBookBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1=new Intent(PdfDetailActivity.this,PdfViewActivity.class);
+                intent1.putExtra("bookId",bookId);
+                startActivity(intent1);
+            }
+        });
     }
 
     private void loadBookDetails() {
