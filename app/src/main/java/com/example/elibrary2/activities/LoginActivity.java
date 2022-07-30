@@ -1,4 +1,4 @@
-package com.example.elibrary2;
+package com.example.elibrary2.activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,7 +12,6 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.example.elibrary2.databinding.ActivityLoginBinding;
-import com.example.elibrary2.databinding.ActivityRegisterBinding;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.AuthResult;
@@ -46,7 +45,7 @@ public class LoginActivity extends AppCompatActivity {
         binding.noAccountTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(LoginActivity.this,RegisterActivity.class));
+                startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
             }
         });
 
@@ -108,11 +107,11 @@ public class LoginActivity extends AppCompatActivity {
                         String userType=""+snapshot.child("userType").getValue();
 
                         if(userType.equals("user")){
-                            startActivity(new Intent(LoginActivity.this,DashboardUserActivity.class));
+                            startActivity(new Intent(LoginActivity.this, DashboardUserActivity.class));
                             finish();
                         }
                         else if(userType.equals("admin")){
-                            startActivity(new Intent(LoginActivity.this,DashboardAdminActivity.class));
+                            startActivity(new Intent(LoginActivity.this, DashboardAdminActivity.class));
                             finish();
                         }
                     }

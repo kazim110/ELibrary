@@ -1,4 +1,4 @@
-package com.example.elibrary2;
+package com.example.elibrary2.activities;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

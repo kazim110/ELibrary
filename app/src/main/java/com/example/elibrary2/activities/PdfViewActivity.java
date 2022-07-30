@@ -1,4 +1,4 @@
-package com.example.elibrary2;
+package com.example.elibrary2.activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
+import com.example.elibrary2.Constants;
 import com.example.elibrary2.databinding.ActivityPdfViewBinding;
 import com.github.barteksc.pdfviewer.listener.OnErrorListener;
 import com.github.barteksc.pdfviewer.listener.OnPageChangeListener;

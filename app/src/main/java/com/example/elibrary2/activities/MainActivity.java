@@ -1,4 +1,4 @@
-package com.example.elibrary2;
+package com.example.elibrary2.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,7 +8,9 @@ import android.view.View;
 
 import com.example.elibrary2.databinding.ActivityMainBinding;
 
-public class MainActivity extends AppCompatActivity {
+public class
+
+MainActivity extends AppCompatActivity {
 
 
     private ActivityMainBinding binding;
@@ -21,14 +23,14 @@ public class MainActivity extends AppCompatActivity {
         binding.loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,LoginActivity.class));
+                startActivity(new Intent(MainActivity.this, LoginActivity.class));
             }
         });
 
         binding.skipBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,DashboardUserActivity.class));
+                startActivity(new Intent(MainActivity.this, DashboardUserActivity.class));
             }
         });
     }

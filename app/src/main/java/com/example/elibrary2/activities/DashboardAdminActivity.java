@@ -1,4 +1,4 @@
-package com.example.elibrary2;
+package com.example.elibrary2.activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -73,14 +73,14 @@ public class DashboardAdminActivity extends AppCompatActivity {
         binding.addCategoryBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(DashboardAdminActivity.this,CategoryAddActivity.class));
+                startActivity(new Intent(DashboardAdminActivity.this, CategoryAddActivity.class));
             }
         });
 
         binding.addPdfFab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(DashboardAdminActivity.this,PdfAddActivity.class));
+                startActivity(new Intent(DashboardAdminActivity.this, PdfAddActivity.class));
             }
         });
     }
@@ -112,7 +112,7 @@ public class DashboardAdminActivity extends AppCompatActivity {
     private void checkUser(){
         FirebaseUser firebaseUser=firebaseAuth.getCurrentUser();
         if(firebaseUser==null){
-            startActivity(new Intent(this,MainActivity.class));
+            startActivity(new Intent(this, MainActivity.class));
             finish();
         }
         else {

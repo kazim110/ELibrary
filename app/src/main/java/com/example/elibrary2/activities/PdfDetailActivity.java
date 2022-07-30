@@ -1,4 +1,4 @@
-package com.example.elibrary2;
+package com.example.elibrary2.activities;
 
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
@@ -14,6 +14,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
+import com.example.elibrary2.MyApplication;
 import com.example.elibrary2.databinding.ActivityPdfDetailBinding;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -53,7 +54,7 @@ public class PdfDetailActivity extends AppCompatActivity {
         binding.readBookBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent1=new Intent(PdfDetailActivity.this,PdfViewActivity.class);
+                Intent intent1=new Intent(PdfDetailActivity.this, PdfViewActivity.class);
                 intent1.putExtra("bookId",bookId);
                 startActivity(intent1);
             }

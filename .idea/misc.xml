@@ -9,6 +9,9 @@
         <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/drawable/shape_button03.xml" value="0.1" />
         <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/drawable/shape_edittext01.xml" value="0.1" />
         <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/drawable/shape_toolbar01.xml" value="0.1" />
+        <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/drawable/tab_background_selected.xml" value="0.1" />
+        <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/drawable/tab_background_unselected.xml" value="0.1" />
+        <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/drawable/tab_selector.xml" value="0.1" />
         <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/layout/activity_category_add.xml" value="0.1" />
         <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/layout/activity_dashboard_admin.xml" value="0.1" />
         <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/layout/activity_dashboard_user.xml" value="0.1" />
@@ -21,8 +24,10 @@
         <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/layout/activity_pdf_view.xml" value="0.22" />
         <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/layout/activity_register.xml" value="0.1" />
         <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/layout/activity_splash.xml" value="0.12" />
+        <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/layout/fragment_books_user.xml" value="0.13179347826086957" />
         <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/layout/row_category.xml" value="0.25" />
         <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/layout/row_pdf_admin.xml" value="0.16" />
+        <entry key="..\:/Users/Kazim/AndroidStudioProjects/ELibrary/app/src/main/res/layout/row_pdf_user.xml" value="0.1" />
       </map>
     </option>
   </component>

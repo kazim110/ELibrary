@@ -1,4 +1,4 @@
-package com.example.elibrary2;
+package com.example.elibrary2.activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -121,7 +121,7 @@ public class RegisterActivity extends AppCompatActivity {
                     public void onSuccess(Void unused) {
                         progressDialog.dismiss();
                         Toast.makeText(RegisterActivity.this,"Account Created...",Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(RegisterActivity.this,DashboardUserActivity.class));
+                        startActivity(new Intent(RegisterActivity.this, DashboardUserActivity.class));
                         finish();
                     }
                 })
